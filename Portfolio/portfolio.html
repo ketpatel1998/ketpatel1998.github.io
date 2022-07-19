@@ -1,0 +1,429 @@
+<html>
+    <head>
+        <title>Ket Patel : Software Developer</title>
+        <link rel = "icon" href = "Images/user-profile-svgrepo-com.svg" type = "image/x-icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/68cefda336.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="portfolio.css">
+        <script src="portfolio.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navigation-menu text-center fixed-top">
+            <div class="container-fluid">
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navigation-menu-item" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#home" class="nav-item nav-link navbar-icons"><i class="fa-solid fa-inverse fa-house-user fa-xl " title="Home"></i></a>
+                        <a href="https://github.com/ketpatel1998" class="nav-item nav-link navbar-icons"><i class="fa-brands fa-inverse fa-github fa-xl" title="GitHub"></i></a>
+                        <a href="https://www.linkedin.com/in/ket-patel-425837139/" class="nav-item nav-link navbar-icons"><i class="fa-brands fa-inverse fa-linkedin fa-xl" title="LinkedIn"></i></a>                        
+                        <a href="Resume/Resume Ket Patel.pdf" class="nav-item nav-link navbar-icons"><i class="fa-solid fa-inverse fa-file fa-xl" title="Resume"></i></a>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="#home" class="nav-item nav-link active"> Home &nbsp; &nbsp;</a>
+                        <a href="#skills" class="nav-item nav-link"> Skills &nbsp; &nbsp; </a>
+                        <a href="#experience" class="nav-item nav-link"> Experience &nbsp; &nbsp;</a>
+                        <a href="#projects" class="nav-item nav-link"> Projects &nbsp; &nbsp;</a>
+                        <a href="#education" class="nav-item nav-link"> Education &nbsp; &nbsp;</a>
+                        <a href="#contact" class="nav-item nav-link"> Contact &nbsp; &nbsp;</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="row container-fluid common-style text-center" id="home">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <img class="rounded-circle z-depth-2 profile-pic" alt="100x100" src="Images/Profile Pic c2.jpg" data-holder-rendered="true">
+                <b><p id="name"> Ket Patel </p></b>
+                <i><p id="designation">Software Developer</p></i>
+                <p id="description"><span>“I am a Software Developer and have hands-on experience on various programming languages with different Job-Level and Academic Projects.” </span><i><p id="description">#LoveCoding</p></i></p>
+            </div>
+            <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn-list">
+                <a href="#" class="nav-item nav-link profile-icons"> <i class="fa-brands fa-inverse fa-github" title="GitHub"></i></a>
+                <a href="#" class="nav-item nav-link profile-icons"><i class="fa-brands fa-inverse fa-linkedin" title="LinkedIn"></i></a>
+                <a href="Resume/Resume Ket Patel.pdf" class="nav-item nav-link profile-icons" title="Resume"><i class="fa-solid fa-inverse fa-up-right-from-square"></i></a>
+            </div> -->
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn-list">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 btn-github">
+                    <a href="https://github.com/ketpatel1998" class="nav-item nav-link profile-icons"> <i class="fa-brands fa-inverse fa-github" title="GitHub"></i></a>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="https://www.linkedin.com/in/ket-patel-425837139/" class="nav-item nav-link profile-icons"><i class="fa-brands fa-inverse fa-linkedin" title="LinkedIn"></i></a>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                    <a href="Resume/Resume Ket Patel.pdf" class="nav-item nav-link profile-icons" title="Resume"><i class="fa-solid fa-inverse fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div> 
+        <div class="row text-center" id="skills-box" class="skills-box">
+
+            <h1 style="color:white;font-size: 340%;"><b>Skills</b></h1>
+            <div class="col-xl-12 col-lg-12 container-fluid" id="skills">
+                <br/>
+                <div class="col-sm-12 col-md-2 col-xl-2 col-lg-6 mb-4">
+                    <div class="rounded-lg p-5 shadow">
+                            <!-- Progress bar 1 -->
+                        <h2 class="h6 font-weight-bold text-center mb-4 skill-title"><img id="javaImg" src="Images/java-icon.svg"/></h2>
+                        <div class="progress green">
+                            <span class="progress-left">
+                                        <span id="progress-bar-animation-left-green" class="border-success"></span>
+                            </span>
+                            <span class="progress-right">
+                                        <span id="progress-bar-animation-right-green" class="border-success"></span>
+                            </span>
+                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">80<sup class="small">%</sup></div>
+                            </div>
+                        </div> 
+                            <!-- END -->
+                            <!-- Demo info -->
+                        <div class="row text-center mt-4">
+                            <div class="col-12">
+                                <span class="text-gray skill-subtitle"> : Frameworks :</span><br/><br/><div class="h4 font-weight-bold mb-0"><img id="playImg" src="Images/play.svg.png"/></div>
+                            </div>
+                            <!-- <div class="col-6">
+                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                            </div> -->
+                        </div>
+                        <!-- END -->
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-2 col-xl-2 col-lg-6 mb-4">
+                    <div class="bg-white rounded-lg p-5 shadow">
+                            <!-- Progress bar 1 -->
+                        <br/><br/>
+                        <h2 class="h6 font-weight-bold text-center mb-4 skill-title">React</h2>
+                        <br/>
+                        <div class="progress blue" data-value='60'>
+                            <span class="progress-left">
+                                        <span id="progress-bar-animation-left-info"  class="border-info"></span>
+                            </span>
+                            <span class="progress-right">
+                                        <span id="progress-bar-animation-right-info" class="border-info"></span>
+                            </span>
+                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold" style="color: black;">60<sup class="small">%</sup></div>
+                            </div>
+                        </div> 
+                            <!-- END -->
+                            <!-- Demo info -->
+                        <div class="row text-center mt-4">
+                            <div class="col-12">
+                                <span class="text-gray skill-subtitle"> : Frameworks :</span><br /><br /><div class="h4 font-weight-bold mb-0"><img id="reactImg" src="Images/React-icon.svg.png"/></div>
+                            </div>
+                            <!-- <div class="col-6">
+                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                            </div> -->
+                        </div>
+                        <!-- END -->
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-2 col-xl-2 col-lg-6 mb-4">
+                    <div class="rounded-lg p-5 shadow">
+                            <!-- Progress bar 1 -->
+                            <br/><br/>
+                        <h2 class="h6 font-weight-bold text-center mb-4 skill-title">REST APIs</h2>
+                        <br/>
+                        <div class="progress red" data-value='70'>
+                            <span class="progress-left">
+                                        <span id="progress-bar-animation-left-danger" class="border-danger"></span>
+                            </span>
+                            <span class="progress-right">
+                                        <span id="progress-bar-animation-right-danger" class="border-danger"></span>
+                            </span>
+                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+                            </div>
+                        </div> 
+                            <!-- END -->
+                            <!-- Demo info -->
+                        <div class="row text-center mt-4">
+                            <div class="col-12">
+                                <span class="text-gray skill-subtitle"> : Tools :</span><br /><br /><div class="h4 font-weight-bold mb-0"><img id="postmanImg" src="Images/getpostman-icon.svg" /></div>
+                            </div>
+                            <!-- <div class="col-6">
+                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                            </div> -->
+                        </div>
+                        <!-- END -->
+                    </div> 
+                </div>
+                
+                <div class="col-sm-12 col-md-2 col-xl-2 col-lg-6 mb-4">
+                    <div class="bg-white rounded-lg p-5 shadow">
+                            <!-- Progress bar 1 -->
+                            <br/><br/>
+                        <h2 class="h6 font-weight-bold text-center mb-4 skill-title">Javascript</h2>
+                        <br/>
+                        <div class="progress red" data-value='70'>
+                            <span class="progress-left">
+                                        <span id="progress-bar-animation-left-primary" class="border-primary"></span>
+                            </span>
+                            <span class="progress-right">
+                                        <span id="progress-bar-animation-right-primary" class="border-primary"></span>
+                            </span>
+                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">70<sup class="small">%</sup></div>
+                            </div>
+                        </div> 
+                            <!-- END -->
+                            <!-- Demo info -->
+                        <div class="row text-center mt-4">
+                            <div class="col-12">
+                                <span class="text-gray skill-subtitle"> : Types :</span><br /><br /><div class="h4 font-weight-bold mb-0"><img id="jqueryImg" src="Images/JQuery-Logo.svg.png"/></div>
+                            </div>
+                            <!-- <div class="col-6">
+                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                            </div> -->
+                        </div>
+                        <!-- END -->
+                    </div> 
+                </div>
+                <div class="col-sm-12 col-md-2 col-xl-2 col-lg-6 mb-4">
+                    <div class="rounded-lg p-5 shadow">
+                            <!-- Progress bar 1 -->
+                            <br/><br/>
+                        <h2 class="h6 font-weight-bold text-center mb-4 skill-title">Apex</h2>
+                        <br/>
+                        <div class="progress black" data-value='75'>
+                            <span class="progress-left">
+                                        <span id="progress-bar-animation-left-dark" class="border-dark"></span>
+                            </span>
+                            <span class="progress-right">
+                                        <span id="progress-bar-animation-right-dark" class="border-dark"></span>
+                            </span>
+                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">75<sup class="small">%</sup></div>
+                            </div>
+                        </div> 
+                            <!-- END -->
+                            <!-- Demo info -->
+                        <div class="row text-center mt-4">
+                            <div class="col-12">
+                                <span class="text-gray skill-subtitle"> : Platform :</span><br /><br /><div class="h4 font-weight-bold mb-0"><img id="salesforceImg" src="Images/Salesforce.com_logo.svg.png"/></div>
+                            </div>
+                            <!-- <div class="col-6">
+                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                            </div> -->
+                        </div>
+                        <!-- END -->
+                    </div> 
+                </div>  
+                
+                <div class="col-sm-12 col-md-2 col-xl-2 col-lg-6 mb-4">
+                    <div class="bg-white rounded-lg p-5 shadow">
+                            <!-- Progress bar 1 -->
+                        <h2 class="h6 font-weight-bold text-center mb-4 skill-title"><img id="pythonImg" src="Images/Python-logo-notext.svg"/></h2>
+                        <div class="progress yellow" data-value='85'>
+                            <span class="progress-left">
+                                        <span id="progress-bar-animation-left-warning" class="border-warning"></span>
+                            </span>
+                            <span class="progress-right">
+                                        <span id="progress-bar-animation-right-warning" class="border-warning"></span>
+                            </span>
+                            <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
+                            <div class="h2 font-weight-bold">85<sup class="small">%</sup></div>
+                            </div>
+                        </div> 
+                            <!-- END -->
+                            <!-- Demo info -->
+                        <div class="row text-center mt-4">
+                            <div class="col-12">
+                                <span class="text-gray skill-subtitle"> : Frameworks :</span><br/><br/><div class="h4 font-weight-bold mb-0"><img id="djangoImg" src="Images/Django_logo.svg.png"/></div>
+                            </div>
+                            <!-- <div class="col-6">
+                            <div class="h4 font-weight-bold mb-0">60%</div><span class="small text-gray">Last month</span>
+                            </div> -->
+                        </div>
+                        <!-- END -->
+                    </div> 
+                </div>
+            </div>
+        </div>
+        
+        <div class="row text-center container-fluid" id="experience">
+            <h1 id="edu-title" style="color:white;font-size: 340%;"><b>Experience</b></h1><br/><br/>
+            <div class="card col-sm-12 col-md-2 mb-3 job-item-temp" style="border: none;"></div>
+            <div class="card col-sm-12 col-md-4 border-success mb-3 job-item">
+                <div class="card-header bg-transparent border-success job-position">Software Developer</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title job-company-name">Shrine Software Services Pvt Ltd</h5>
+                  <p class="card-text job-description">“Worked as a back-end developer in Salesforce-Customer Relationship 
+                    Management (CRM) for handling the sales and orders for the commercial website using the 
+                    lightening platform’s built-in as well as Custom Objects, Formula Fields, Validation Rules, 
+                    Visualforce, Lightening Web Component (LWC), SOQL-SOSL queries, Rest-API calls, batches 
+                    to update thousands of records and tools like Data Loader to import data in the platform.”</p>
+                </div>
+                <div class="card-footer bg-transparent border-success job-time-period">Sept 2020-Sept 2021</div>
+            </div>
+            <div class="card col-sm-12 col-md-4 border-success mb-3 job-item">
+                <div class="card-header bg-transparent border-success job-position">Jr. Java & Python Developer</div>
+                <div class="card-body text-success">
+                  <h5 class="card-title job-company-name">Silverwing Technologies Pvt Ltd</h5>
+                  <p class="card-text job-description">“Worked as a Junior Java developer in Play Framework with various concepts like
+                    Actor based message passing, websockets, REST APIs and Asynchronous process flow. Later on I get a chance
+                    to work as Junior Python Developer in DJango Framework to develope complete web application using its different
+                    functionality.”</p>
+                </div>
+                <div class="card-footer bg-transparent border-success job-time-period">June 2019-July 2020</div>
+            </div>
+            <div class="card col-sm-12 col-md-2 mb-3 job-item-temp" style="border: none;"></div>
+
+        </div>
+        <div class="row text-center container-fluid" id="projects">
+            <h1 id="edu-title" style="color:white;font-size: 340%;"><b>Projects</b></h1><br/><br/>
+            <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">FaceMask Detection using DL</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">Anaconda, Python, PyTorch, CNN </h5>
+                  <p class="card-text project-discription">
+                    <i>“Trained a model to detect images in Five different Classes such as:
+                        <ol class="itemList" style="text-align: left;">
+                            <li>Surgical Mask</li>
+                            <li>N95 Mask</li>
+                            <li>Cloth Mask</li>
+                            <li>No Mask</li>
+                            <li>Mask Worn incorrectly</li>
+                        </ol>
+                        <p class="project-discription">CNN network includes:</p>
+                        <ol class="itemList" style="text-align: left;">
+                            <li>Multiple Convolution Neural<br/> Network Layers</li>
+                            <li>Max Pooling Layers</li>
+                            <li>Linear Layers</li>
+                        </ol>
+                    </i>
+                </p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">Reactive Gitterific</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">Play Framework with JAVA </h5>
+                  <p class="card-text project-discription"><i>“Git based application with parallel processing approach which renders 
+                    list of result based on searched topics, Git User Profile, Git Repository Profile, Git topic 
+                    Profile as well as session management for topic searched by User to reduce the load on 
+                    server for the same request. Used live Github Rest APIS to get the latest data and achieved 
+                    parallelism by applying topics like CompletableFuture and Actor based programming of Play 
+                    Framework with MVC Structure. Also implemented WebSocket for our main search page to 
+                    broadcast up-to-date search result after every 10 secs without page refresh.”</i></p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">WebApp on Distrbuted Platform</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language"> Linux, DockerSwarm and Docker</h5>
+                  <p class="card-text project-discription"><i>“Created basic web app and deploy it on multiple system nodes using 
+                    DockerSwarm and Docker in order to achieve the scalability, Fault Tolerance, Load Balancing 
+                    between nodes and high availability of the System which are the key concepts of distributed 
+                    system design.”</i></p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">User-Feedback App in React</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">React, State, Component, Events, FontAwesome </h5>
+                  <p class="card-text project-discription"><i>“Designed CNN network to train a model on KMINST dataset to get the 
+                    good accuracy in prediction of correct class. Applied various activation functions to 
+                    maintain weight and bias of the network in between valid ranges. Also used Cross-Entropy
+                    Loss function to calculate the loss and back propagate the weights to get efficient model
+                    by optimizing it using Adam optimizer.”</i></p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">City Oversight </div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">Python, Django Framework, ML API </h5>
+                  <p class="card-text project-discription"><i>“The website for municipal corporation to scan images of roads through 
+                    image processing by trained model and find out whether it contains any garbage and 
+                    potholes on it or not. Furthermore, citizens also have access to suggest locations for 
+                    evaluation including their feedbacks and comments.”</i></p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">GST Billing System</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">JAVA, MYSQL, Servlet, JSP</h5>
+                  <p class="card-text project-discription"><i>“In finale of Industrial Hackathon 2019, developed web based application 
+                    for retailers and wholesalers to calculate GST(Good Service Tax) on purchased and sold 
+                    items as well as products in terms of months and years. It also possess features like stock 
+                    management, report generation and loss-profit ratio for particular user.”</i></p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">Deep Learning with PyTorch</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">Anaconda, Python, PyTorch, CNN </h5>
+                  <p class="card-text project-discription"><i>“Designed CNN network to train a model on KMINST dataset to get the 
+                    good accuracy in prediction of correct class. Applied various activation functions to 
+                    maintain weight and bias of the network in between valid ranges. Also used Cross-Entropy
+                    Loss function to calculate the loss and back propagate the weights to get efficient model
+                    by optimizing it using Adam optimizer.”</i></p>
+                </div>
+              </div>
+              <div class="card col-md-3 project-item border-success mb-3">
+                <div class="card-header project-title">Online Parking Booking System</div>
+                <div class="card-body text-primary">
+                  <h5 class="card-title project-language">PHP, MYSQL, MVC </h5>
+                  <p class="card-text project-discription"><i>“Portal for management and booking of parking slots for four-wheelers 
+                    in specific apartments or buildings, so users don’t have to worry about parking availabilities.”</i></p>
+                </div>
+              </div>
+              
+        </div>
+        <div class="row text-center container" id="education">
+            <h1 id="edu-title" style="color:white;font-size: 340%;margin-bottom: 2%;"><b>Education</b></h1><br/><br/>
+            <div class="col-md-2 edu-item"></div>
+            <div class="col-sm-12 col-md-4 edu-item">
+                  <div class="card card-item-body">
+                    <img src="Images/concordia-university-seeklogo.com.svg" id="concordia-edu" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h1 class="card-title degree"><b>Master's In Computer Science</b></h1>
+                      <i><p class="card-university">Concordia Univesity</p></i>
+                      <p class="card-text grades">Year : 2021-Pursuing</p>
+                      <p class="card-text grades">GPA : 3.47</p>
+                    </div>
+                  </div>
+                </div>
+              
+            <div class="col-sm-12 col-md-4 edu-item gtu-edu-item">
+                <div class="card card-item-body">
+                  <img src="Images/Gtu.png" class="card-img-top" id="gtu-edu" alt="...">
+                  <div class="card-body">
+                    <h1 class="card-title degree"><b>Bachelor's In Computer Engineering</b></h1>
+                    <i><p class="card-university">Gujarat Technological Univesity</p></i>
+                    <p class="card-text grades">Year : 2016-2020</p>
+                    <p class="card-text grades">CGPA : 9.08</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 edu-item"></div>
+            </div>
+            
+            
+        </div>
+        <div class="row text-center container" id="contact">
+            <h1 id="edu-title" style="color:white;font-size: 340%;margin-bottom: 2%;"><b>My Contact Info</b></h1><br/><br/>
+            <div class="col-sm-12 col-md-2 col-lg-3 col-xl-3"></div>
+            <div class="col-sm-12 col-md-8 col-lg-6 col-xl-5 card-item-contact mb-3">
+                <div class="card-body">
+                    <span class="contact-title">Name</span><span class="contact-value">Ket Patel</span><br/>
+                    <span class="contact-title">Email</span><span class="contact-value">Ket.Patel1998@gmail.com</span><br/>
+                    <span class="contact-title">Phone</span><span class="contact-value">+1 514 570 7896</span><br/>
+                    <span class="contact-title">Status</span><span class="contact-value">Open to Work</span>  <br/>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-4"></div>
+        </div>
+    <br><br>
+        <div class="border-black text-center" id="copyright"><i><b>@2022 Ket Patel, India. All rights reserved.</b></i></div>
+    </body>
+
+</html>
