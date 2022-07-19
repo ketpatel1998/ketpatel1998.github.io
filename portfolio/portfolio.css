@@ -1,0 +1,1327 @@
+/*
+=========================
+Home
+=========================
+*/
+.common-style{
+    padding: 2%;
+    color:white;
+}
+.profile-pic{
+    width: 30%;
+    height: 60%;
+    margin-top: 1%;
+    border:solid lightblue 4px ;
+}
+.nav-item:hover{
+    text-decoration: none;
+}
+.btn-list{
+    padding-top: -20%;
+}
+.navigation-menu-item{
+    font-size: 180%;
+}
+.navigation-menu{
+    padding: 1%;
+    margin-bottom: 0%;
+    border-radius: 0%;
+}
+.navbar-icons{
+    margin-top: 6%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 6%;
+}
+.profile-icons{
+    margin-top: 6%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 6%;
+    font-size: 500%;
+    display: inline;
+}
+#home{
+    
+    padding-top: 20%;
+    margin: 0%;
+}
+#name{
+    margin-top: 1%;
+    font-size: 230%;
+}
+#designation{
+    margin-top: -1%;
+    font-size: 190%;
+}
+#description{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 0%;
+    font-size: 150%;
+}
+
+@media  only screen and (max-width: 2560px) {
+    .btn-list{
+        margin-top: -5%;
+        margin-bottom: 0%;
+    }
+    .profile-pic{
+        width: 30%;
+        height: 90%;
+        margin-top: -15%;
+    }
+}
+@media  only screen and (max-width: 2000px) {
+    #home{
+        padding-top: 5%;
+    }.profile-pic{
+        width: 30%;
+        height: 60%;
+        margin-top: 1%;
+    }
+}
+
+@media  only screen and (max-width: 1500px) {
+    .btn-list{
+        margin-top: -4%;
+    }
+}
+@media  only screen and (max-width: 1295px) {
+    .btn-list{
+        margin-top: -1%;
+    }
+}
+@media  only screen and (max-width: 1100px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 30%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 985px) {
+    .profile-pic{
+        width: 35%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 965px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 37%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 859px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 40%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 830px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 41%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 800px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    #description{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .profile-pic{
+        width: 42%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 700px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 46%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 650px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 48%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 600px) {
+    .btn-list{
+        margin-top: 0%;
+    }
+    .profile-pic{
+        width: 55%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 0%;
+        font-size: 150%;
+    }
+}
+@media  only screen and (max-width: 584px) {
+    .btn-list{
+        margin-top: 2%;
+    }
+    .profile-pic{
+        margin-top: 6%;
+        width: 56%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+@media  only screen and (max-width: 574px) {
+    .btn-list{
+        margin-top: -10%;
+    }
+    .btn-github{
+        margin-top: 12%;
+    }
+    .profile-pic{
+        width: 60%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+}
+@media  only screen and (max-width: 530px) {
+    .btn-github{
+        margin-top: 14%;
+    }
+    .profile-pic{
+        margin-top: 8%;
+        width: 64%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+@media  only screen and (max-width: 500px) {
+    #home{
+        padding-top: 10%;
+    }
+    .btn-github{
+        margin-top: 13%;
+    }
+    .profile-pic{
+        margin-top: 7%;
+        width: 68%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+}
+@media  only screen and (max-width: 476px) {
+    .btn-github{
+        margin-top: 13%;
+    }
+    .profile-pic{
+        margin-top: 7%;
+        width: 70%;
+        height: 60%;
+    }
+}
+@media  only screen and (max-width: 446px) {
+    .btn-github{
+        margin-top: 15%;
+    }
+    .profile-pic{
+        margin-top: 7%;
+        width: 74%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media  only screen and (max-width: 408px) {
+    .btn-github{
+        margin-top: 18%;
+    }
+    .profile-pic{
+        margin-top: 7%;
+        width: 76%;
+        height: 60%;
+    }
+    #description{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media  only screen and (max-width: 376px) {
+    .btn-github{
+        margin-top: 22%;
+    }
+}
+@media  only screen and (max-width: 321px) {
+    body{
+        padding-left:10%;
+        padding-right: 10%;
+    }
+    .profile-icons{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .profile-pic{
+        margin-top: 18%;
+    }
+    .btn-github{
+        margin-top: 55%;
+    }
+}
+/*
+============================
+Skills
+============================
+*/
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.progress{
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    border-radius: 50%;
+    border: 6px solid #f2f5f5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    border-width: 6px;
+    border-style: solid;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: none;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    font-size: 250%;
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(108deg);
+        transform: rotate(108deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(72deg);
+        transform: rotate(72deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-6{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+
+.progress.green .progress-bar{
+    border-color: #26abfd;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.blue .progress-bar{
+    border-color: #fdc426;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.red .progress-bar{
+    border-color: #f83754;
+}
+.progress.red .progress-left .progress-bar{
+    animation: loading-4 1.4s linear forwards 1.8s;
+}
+.progress.black .progress-bar{
+    border-color: #f83754;
+}
+.progress.black .progress-left .progress-bar{
+    animation: loading-5 1.4s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #f83754;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-6 1.4s linear forwards 1.8s;
+}
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+  body {
+    background: #224650;
+    background: -webkit-linear-gradient(to right, #224650, #1b7b77);
+    background: linear-gradient(to right, #224650, #1b7b77);
+    min-height: 100vh;
+    background-image: url('Images/mountains-landscape-dark-nature-4k-i0-1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  .rounded-lg {
+    border-radius: 1rem;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+  
+  div.h4 {
+    line-height: 1rem;
+  }
+/*
+=============================
+Custom Skills
+=============================
+*/
+.skill-title{
+    font-size: 240%;
+    margin-top: -10px;
+}
+#skills{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+}
+#skills2{
+    padding: 1%;
+}
+#skills-box{
+    background-color: rgba(27,123,119, .5);
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.skill-subtitle{
+    font-size: 200%;
+}
+.shadow{
+    background-color: #a2e3b8;
+    height: 90%;
+}
+.green-background{
+    background-color: #a2e3b8;
+    padding: 5%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+}
+.white-background{
+    background-color: whitesmoke;
+    padding: 5%;
+    margin-left: 3%;
+    padding-bottom: 1%;
+}
+#javaImg{
+    width: 40%;
+    height:20%;
+    margin-bottom: 5%;
+}
+#pythonImg{
+    width: 40%;
+    height:20%;
+    margin-bottom: 5%;
+}
+#reactImg{
+    width: 40%;
+    height:40%;
+}
+#postmanImg{
+    width: 30%;
+    height:40%;
+}
+#salesforceImg{
+    width: 45%;
+    height:45%;
+}
+#djangoImg{
+    width: 40%;
+    height:40%;
+}
+#jqueryImg{
+    width: 50%;
+    height:40%;
+}
+#playImg{
+    width: 40%;
+    height:40%;
+}
+@media  only screen and (max-width: 1400px) {
+    .progress{
+        width: 135px;
+        height: 135px;
+    }
+    .progress-value{
+        margin-top: 0%;
+    }
+}
+@media  only screen and (max-width: 1300px) {
+    .progress{
+        width: 120px;
+        height: 120px;
+    }
+    .skill-title{
+        font-size: 200%;
+    }
+    .skill-subtitle{
+        font-size: 170%;
+    }
+    .progress-value{
+        margin-top: 0%;
+    }
+}
+@media  only screen and (max-width: 1199px) {
+    .progress{
+        width: 120px;
+        height: 120px;
+    }.skill-title{
+        font-size: 250%;
+    }
+    #javaImg{
+        width: 40%;
+        height:20%;
+    }
+    .skill-subtitle{
+        font-size: 170%;
+    }
+    .progress-value{
+        margin-top: 0%;
+    }
+    .shadow{
+        height: 20%;
+    }
+    #skills{
+        margin-bottom: -58%;
+    }
+    #pythonImg{
+        width: 20%;
+        height:20%;
+        margin-bottom: 2%;
+    }
+    #javaImg{
+        width: 50%;
+        height:25%;
+        margin-bottom: 0%;
+    }
+}
+@media  only screen and (max-width: 1150px) {
+    #skills{
+        margin-bottom: -60%;
+    }
+    #pythonImg{
+        width: 20%;
+        height:20%;
+    }
+}
+@media  only screen and (max-width: 1100px) {
+    #skills{
+        margin-bottom: -61%;
+    }
+}
+@media  only screen and (max-width: 1050px) {
+    #skills{
+        margin-bottom: -63%;
+    }
+}
+@media  only screen and (max-width: 1000px) {
+    #skills{
+        margin-left: 0%;
+    }
+    /* .shadow{
+        background-color: #a2e3b8;
+        height: 20%;
+    } */
+    .progress{
+        width: 150px;
+        height: 150px;
+    }
+    #skills{
+        margin-bottom: -65%;
+    }       
+    #reactImg{
+        width: 30%;
+        height:30%;
+    }
+    #postmanImg{
+        width: 25%;
+        height:35%;
+    }
+    #salesforceImg{
+        width: 40%;
+        height:30%;
+    }
+    #playImg{
+        width: 40%;
+        height:30%;
+    }
+}
+@media  only screen and (max-width: 992px) {
+    .progress{
+        width: 90px;
+        height: 90px;
+    }
+    .skill-title{
+        font-size: 170%;
+    }
+    #skills{
+        margin-bottom: 0%;
+    }
+    .shadow{
+        background-color: #a2e3b8;
+        height: 85%;
+        margin-left: -20px;
+    }
+    #skills{
+        padding-left: 4%;
+        padding-right: 1%;
+        padding-top: 2%;
+        padding-bottom: 1%;
+        
+    }
+    #skills{
+        margin-bottom: -3%;
+    } 
+    .skill-subtitle{
+        font-size: 130%;
+    }#reactImg{
+        width: 50%;
+        height:50%;
+    }
+    #postmanImg{
+        width: 45%;
+        height:55%;
+    }
+    #salesforceImg{
+        width: 60%;
+        height:55%;
+    }
+    #pythonImg{
+        width: 50%;
+        height:25%;
+    }
+    #djangoImg{
+        margin-top: 10%;
+        width: 50%;
+        height:45%;
+    }
+    #jqueryImg{
+        margin-top: 10%;
+        width: 60%;
+        height:50%;
+    }
+    #playImg{
+        margin-top: 10%;
+        width: 50%;
+        height:50%;
+    }
+}
+@media  only screen and (max-width: 950px) {
+    .skill-title{
+        font-size: 155%;
+    }
+    .skill-subtitle{
+        font-size: 118%;
+    }
+}
+@media  only screen and (max-width: 900px) {
+    .skill-title{
+        font-size: 110%;
+    }
+    .skill-subtitle{
+        font-size: 82%;
+    }
+    .progress{
+        width: 90px;
+        height: 90px;
+        margin-left:-10%;
+    }
+    body {
+        /* padding-left: 10%; */
+    }
+    .shadow{
+        background-color: #a2e3b8;
+        height: 85%;
+        margin-left: -25px;
+    }
+}
+@media  only screen and (max-width: 875px) {
+    .progress{
+        width: 90px;
+        height: 90px;
+        margin-left:-10%;
+    }
+}
+@media  only screen and (max-width: 850px) {
+    .progress{
+        width: 90px;
+        height: 90px;
+        margin-left:-9%;
+    }
+}
+@media  only screen and (max-width: 825px) {
+    .progress{
+        width: 90px;
+        height: 90px;
+        margin-left:-15%;
+    }
+}
+@media  only screen and (max-width: 800px) {
+    #skills{
+        margin-left: 0%;
+        margin-bottom: 0%;
+    }
+    .shadow{
+        background-color: #a2e3b8;
+        height: 88%;
+    }
+    .progress{
+        width: 90px;
+        height: 90px;
+        margin-left:-21%;
+    }
+    .skill-title{
+        font-size: 100%;
+    }
+    .skill-subtitle{
+        font-size: 74%;
+    }
+}
+@media  only screen and (max-width: 767px) {
+    
+    .skill-title{
+        font-size: 440%;
+    }
+    .skill-subtitle{
+        font-size: 200%;
+    }
+    .progress{
+        width: 150px;
+        height: 150px;
+        margin:auto;
+    }
+    .shadow{
+        background-color: #a2e3b8;
+        height: 14%;
+        margin-left: -1%;
+        margin-right: 1%;
+    }
+    #djangoImg{
+        margin-top: 5%;
+    }
+    #playImg{
+        margin-top: 3%;
+    }
+    #skills{
+        margin-bottom: -75%;
+    } 
+}
+@media  only screen and (max-width: 700px) {
+    #skills{
+        margin-bottom: -78%;
+    } 
+}
+@media  only screen and (max-width: 650px) {
+    #skills{
+        margin-bottom: -79%;
+    }
+}
+@media  only screen and (max-width: 600px) {
+    #skills{
+        margin-bottom: -82%;
+    } 
+}
+@media  only screen and (max-width: 575px) {
+    
+}
+@media  only screen and (max-width: 550px) {
+    #skills{
+        margin-bottom: -85%;
+    } 
+}
+@media  only screen and (max-width: 500px) {
+    #skills{
+        margin-left: 1%;
+        margin-bottom: -49%;
+    }
+    .shadow{
+        background-color: #a2e3b8;
+        height: 15%;
+    }
+}
+@media  only screen and (max-width: 450px) {
+    #skills{
+        margin-bottom: -52%;
+    } 
+}
+@media  only screen and (max-width: 400px) {
+    #skills{
+        margin-bottom: -54%;
+    } 
+}
+@media  only screen and (max-width: 350px) {
+    #skills{
+        margin-bottom: -58%;
+    } 
+}
+@media  only screen and (max-width: 300px) {
+    #skills{
+        margin-bottom: -60%;
+    } 
+}
+@media  only screen and (max-width: 250px) {
+    #skills{
+        margin-bottom: -72%;
+    } 
+}
+/*
+=============================
+Education
+=============================
+*/
+#Education{
+    padding: 1%;
+    margin: auto;
+    /* padding-left: 11%; */
+}
+.card-item-body{
+    background-color: rgba(27,123,119, .5);
+    color:#a2e3b8;
+    height:82%;
+}
+.degree{
+    padding-top: 0%;
+    font-size: 190%;
+}
+.card-university{
+    font-size: 150%;
+}
+.grades{
+    font-size: 140%;
+    color: whitesmoke;
+}
+#gtu-edu{
+    height:40%;
+    width:50%;
+    margin:5%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+#concordia-edu{
+    height: 60%;
+    width:77%;
+    margin-left: 10%;
+    margin-bottom: -3%;
+}
+@media  only screen and (max-width: 1199px){
+    #concordia-edu{
+        height: 60%;
+        width:77%;
+        margin-left: 10%;
+        margin-bottom: -9%;
+    }
+    .card-item-body{
+        height: 88%;
+    }
+}
+@media  only screen and (max-width: 1025px){  
+    #gtu-edu{
+        height:40%;
+        width:50%;
+        margin:5%;
+        margin-left: 25%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+    #concordia-edu{
+        height: 60%;
+        width:77%;
+        margin-left: 10%;
+        margin-bottom: -5%;
+    }
+    .card-item-body{
+        height: 85%;
+    }
+}
+@media  only screen and (max-width: 993px){
+    #concordia-edu{
+        height: 60%;
+        width:77%;
+        margin-left: 10%;
+        margin-bottom: -19%;
+    }
+    .card-item-body{
+        height: 105%;
+    }
+}
+@media  only screen and (max-width: 767px) {  
+    #education{
+        padding: 0%;
+    }
+    #concordia-edu{
+        height: 60%;
+        width:77%;
+        margin-left: 10%;
+        margin-bottom: -5%;
+    }
+    #gtu-edu{
+        height:40%;
+        width:40%;
+        margin:5%;
+        margin-left: 30%;
+        margin-bottom: 0%;
+        margin-top: 10%;
+    }
+    .card-item-body{
+        height: 65%;
+    }
+    .gtu-edu-item{
+        margin-top: -32%;
+    }
+}
+
+@media  only screen and (max-width: 515px){  
+    .card-item-body{
+        height: 70%;
+        margin-left: 4%;
+    }
+    .gtu-edu-item{
+        margin-top: -28%;
+    }
+}
+@media  only screen and (max-width: 426px){  
+    .card-item-body{
+        height: 75%;
+        margin-left: 4%;
+    }
+    .gtu-edu-item{
+        margin-top: -23%;
+    }
+}
+@media  only screen and (max-width: 392px){ 
+    .card-item-body{
+        height: 82%;
+        margin-left: 4%;
+    }
+    .gtu-edu-item{
+        margin-top: -15%;
+    }
+}
+@media  only screen and (max-width: 376px){ 
+    .card-item-body{
+        height: 84%;
+        margin-left: 4%;
+    }
+    .gtu-edu-item{
+        margin-top: -15%;
+    }
+}
+@media  only screen and (max-width: 321px){ 
+    .card-item-body{
+        height: 109%;
+        margin-left: 4%;
+    }
+    .gtu-edu-item{
+        margin-top: 14%;
+    }
+}
+/*
+==============================
+Projects
+==============================
+*/
+#projects{
+    padding: 1%;
+    padding-left: 3%;
+}
+.project-title{
+    font-size: 200%;
+    font-weight: bold;
+    background-color: #a2e3b8;
+}
+.project-language{
+    font-size: 170%;
+    color: #eee;
+}
+.project-discription{
+    font-size: 150%;
+    margin: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    color: #b1e5c2;
+}
+.project-item{
+    background-color: rgba(27,123,119, .5);
+}
+.itemList{
+    font-size: 150%;
+    padding-left: 25%;
+    color: #b1e5c2;
+}
+
+@media  only screen and (max-width: 1025px){
+    #projects{
+        padding-left: 5%;
+    }
+}
+@media  only screen and (max-width: 992px){
+}
+@media  only screen and (max-width: 769px) {
+    #projects{
+        padding-left: 7%;
+    }
+    .project-discription{
+        padding-left: 0%;
+        padding-right: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+@media  only screen and (max-width: 426px){ 
+    #projects{
+        padding-left: 12%;
+    }
+}
+@media  only screen and (max-width: 376px){ 
+    #projects{
+        padding-left: 16%;
+    }
+}
+@media  only screen and (max-width: 321px){ 
+    #projects{
+        padding-left: 18%;
+    }
+}
+/*
+================================
+Experience
+================================
+*/
+#experience{
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+.job-item{
+    margin-left: 1%;
+    margin-right: 1%;
+    border: none;
+    background-color: rgba(27,123,119, .5);
+    color:whitesmoke;
+}
+.job-item-temp{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+.job-position{
+    font-size: 200%;
+    font-weight: bold;
+    color: #a2e3b8;
+}
+.job-company-name{
+    font-size: 160%;
+    color: #b1e5c2;
+    font-style: italic;
+}
+.job-description{
+    font-size: 150%;
+    color: gainsboro;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.job-time-period{
+    margin-top: 2%;
+    font-size: 170%;
+    color: #a2e3b8;
+    font-style: italic;
+}
+@media  only screen and (max-width: 992px){
+    .job-description{
+        font-size: 150%;
+        color: gainsboro;
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+}
+@media  only screen and (max-width: 769px) {
+    .job-description{
+        font-size: 150%;
+        color: gainsboro;
+        margin-top: 2%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #experience{
+        padding-left: 5%;
+        padding-right: 0.5%;
+    }
+}
+@media  only screen and (max-width: 426px){ 
+    #experience{
+        padding-left: 10%;
+        padding-right: 0.5%;
+    }
+}
+@media  only screen and (max-width: 376px){ 
+    #experience{
+        padding-left: 15%;
+        padding-right: 0%;
+    }
+}
+@media  only screen and (max-width: 321px){ 
+    #experience{
+        padding-left: 15%;
+        padding-right: -100%;
+    }
+}
+/*
+=================================================
+Contact
+=================================================
+*/
+#contact{
+    padding: 1%;
+    margin: auto;
+    margin-top: -7%;
+    padding-left: 3%;
+}
+.card-item-contact{
+    background-color: rgba(27,123,119, .5);
+    color: rgba(27,123,119, .5);
+    border-radius: 10px;
+    /* height: 190%; */
+}
+.contact-title{
+    color: #a2e3b8;
+    float: left;
+    font-size: 250%;
+}
+.contact-value{
+    color:whitesmoke;
+    font-size: 250%;
+}
+.card-item-icon{
+    float:right;
+}
+@media  only screen and (max-width: 2560px){
+    #contact{
+        margin-top: -3%;
+    }
+    .card-item-contact{
+        margin-left: 4%;
+    }
+}
+@media  only screen and (max-width: 2300px){
+    #contact{
+        margin-top: -4%;
+    }
+}
+@media  only screen and (max-width: 2000px){
+    #contact{
+        margin-top: -5%;
+    }
+}
+@media  only screen and (max-width: 1800px){
+    #contact{
+        margin-top: -6%;
+    }
+}
+@media  only screen and (max-width: 1643px){
+    #contact{
+        margin-top: -6%;
+    }
+}
+@media  only screen and (max-width: 1440px){
+    #contact{
+        margin-top: -6%;
+    }
+    .card-item-contact{
+        margin-left: 5%;
+    }
+}
+@media  only screen and (max-width: 1200px){
+    .card-item-contact{
+        margin-left: 0%;
+    }
+}
+@media  only screen and (max-width: 993px){
+    #contact{
+        margin-top: 1%;
+    }
+}
+@media  only screen and (max-width: 767px) {
+    #contact{
+        margin-top: -23%;
+    }
+}
+@media  only screen and (max-width: 600px) {
+    #contact{
+        margin-top: -27%;
+    }
+}
+@media  only screen and (max-width: 426px){ 
+    #contact{
+        margin-top: -23%;
+    }
+}
+@media  only screen and (max-width: 376px){ 
+    #contact{
+        margin-top: -16%;
+    }
+}
+@media  only screen and (max-width: 321px){ 
+    #contact{
+        margin-top: 14%;
+    }
+}
+/*
+================================================
+Copyrights
+================================================
+*/
+#copyright{
+    font-size: 200%;
+    margin-right: 0%;
+    margin-left: 0%;
+    padding: 0.1%;
+    background-color: rgba(27,123,119, .5);
+    color: #a2e3b8;
+}
+
